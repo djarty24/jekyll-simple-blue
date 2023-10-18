@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-simple-blue"
-  spec.version       = "0.1.0"
+  spec.version       = "0.3.0"
   spec.authors       = ["Revati Tambe"]
   spec.email         = ["24revati@gmail.com"]
 
@@ -12,5 +12,5 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["**/*"]
 
-  spec.add_runtime_dependency "jekyll", "~> 4.3"
+  spec.add_runtime_dependency "jekyll", "~> 3.9"
 end
