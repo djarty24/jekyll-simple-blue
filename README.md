@@ -1,6 +1,6 @@
 # jekyll-simple-blue
 
-⛅︎ A minimal, white-blue Jekyll theme.
+⛅︎ A minimal, white-blue Jekyll theme, including about, resume, and contact pages.
 
 ![Screenshot](https://raw.githubusercontent.com/djarty24/jekyll-simple-blue/master/screenshot.png)
 
@@ -63,4 +63,4 @@ The theme is available as open source under the terms of the [MIT License](https
 
 ## Credits
 
-- Thanks to Aditi Mishra for website design inspiration
+- Thanks to Aditi Mishra for website design inspiration.
