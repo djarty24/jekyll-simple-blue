@@ -7,7 +7,8 @@
 ## Contents
 - [Installation](#installation)
 - [Customizing](#customizing)
-- [Page Layouts](##page-layouts)
+- [Page Layouts](#page-layouts)
+- [Site Settings](#site-settings)
 - [License](#license)
 - [Credits](#credits)
 
