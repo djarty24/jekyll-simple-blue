@@ -12,5 +12,5 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["**/*"]
 
-  spec.add_runtime_dependency "jekyll", "~> 4.3"
+  spec.add_runtime_dependency "jekyll", "~> 3.9"
 end
