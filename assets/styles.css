@@ -1,0 +1,128 @@
+*{
+    background: #FAFAFA;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+h1{
+    margin-top: 0.27em;
+    margin-bottom: 0.27em;
+}
+
+h2{
+    margin-top: 0.27em;
+    margin-bottom: 0.27em;
+}
+
+.blue{
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: none;
+    color: #33B8EE;
+}
+
+.blue-bold{
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    color: #33B8EE;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #33B8EE;
+  }
+  
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #33B8EE;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+    
+.container{
+    padding-top: 50px;
+    margin: auto;
+    width: 50%;
+}
+
+.main-container{
+    margin: auto;
+    width: 75%;
+}
+
+.header-container{
+    padding-bottom: 40px;
+}
+
+.header-container h1{
+    font-size: 30px;
+}
+
+.header-container h2 a{
+    text-decoration: none;
+}
+
+.title a{
+    text-decoration: none;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li{
+    font-size: 27px;
+    display: inline;
+}
+
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar-bar{
+    font-size: 28px;
+}
+
+.blog-container{
+    display: grid;
+    margin: auto;
+}
+
+.post h2{
+    padding-top: 50px;
+    margin: 0px;
+}
+
+.post-body{
+    padding-top: 40px;
+}
+
+.about-me{
+    padding-top: 40px;
+}
+
+.about-me h2{
+    font-size: 18px;
+}
+
+.about-me a{
+    text-decoration: none;
+}

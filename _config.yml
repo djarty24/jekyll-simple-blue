@@ -1,0 +1,8 @@
+title: Your Awesome Title
+author:
+  name: Your Name
+  email: youremail@example.com
+
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+resume: "/resume.pdf" # add your resume to the project folder and add the filepath here.
+favicon: "/favicon.png" # this is the default favicon. If you'd like a custom icon, add it to the project folder and add the filepath here.
