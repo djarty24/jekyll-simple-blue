@@ -1,1 +1,31 @@
-{{ content }}
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/styles.css">
+        <link rel="icon" type="image/x-icon" href="{{ site.favicon }}">
+        <title>{{ site.title }}</title>
+        </head>
+    <body>
+        <div class="container">
+            <div class="main-container">
+                <div class="header-container">
+                    <h1 class="title">The <a href="index.md" class="hover-underline-animation"><em class="blue-bold">personal weblog</em></a> of 
+                        <a href="/index.md" class="hover-underline-animation"><em class="blue-bold">{{ site.author.name }}</em></a>.</h1>
+                    <div class="navbar">
+                        <ul>
+                            <li><a href="/about/" class="hover-underline-animation"><em class="blue">About</em></a></li><li class="navbar-bar"> | </li>
+                            <li><a href="{{ site.resume }}" target="_blank" class="hover-underline-animation"><em class="blue">Resume</em></a></li><li class="navbar-bar"> | </li>
+                            <li><a href="/contact/" class="hover-underline-animation"><em class="blue">Contact</em></a></li>
+                        </ul>
+                    </div>
+                </div>
+                {{ content }}
+            </div>
+        </div>
+    </body>
+</html>
