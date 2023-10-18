@@ -8,23 +8,36 @@
         <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/assets/styles.css">
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
-        <title>{{ site.title }}</title>
+        <title>Your Awesome Title</title>
         </head>
     <body>
         <div class="container">
             <div class="main-container">
                 <div class="header-container">
                     <h1 class="title">The <a href="/index.html" class="hover-underline-animation"><em class="blue-bold">personal weblog</em></a> of 
-                        <a href="/index.html" class="hover-underline-animation"><em class="blue-bold">{{ site.author.name }}</em></a>.</h1>
+                        <a href="/index.html" class="hover-underline-animation"><em class="blue-bold">John Smith</em></a>.</h1>
                     <div class="navbar">
                         <ul>
                             <li><a href="/about.html" class="hover-underline-animation"><em class="blue">About</em></a></li><li class="navbar-bar"> | </li>
-                            <li><a href="{{ site.resume }}" target="_blank" class="hover-underline-animation"><em class="blue">Resume</em></a></li><li class="navbar-bar"> | </li>
+                            <li><a href="/resume.pdf" target="_blank" class="hover-underline-animation"><em class="blue">Resume</em></a></li><li class="navbar-bar"> | </li>
                             <li><a href="/contact.html" class="hover-underline-animation"><em class="blue">Contact</em></a></li>
                         </ul>
                     </div>
                 </div>
-                {{ content }}
+                <div class="about-me">
+    <h1>Hi there. I'm <em class="blue-bold">John Smith</em>.</h1>
+    <p></p>
+    <h2>Welcome to my space on the Internet.</h2>
+    <p></p>
+    <h2>Add a description about you here!
+    </h2>
+    <p></p>
+    <h2>That's all for now, but feel free to keep looking around my website! You can <a href="/index.html" class="hover-underline-animation"><em class="blue">check out my blog</em></a>, 
+        <a href="/resume.pdf" target="_blank" class="hover-underline-animation"><em class="blue">resume</em></a>, 
+        or <a href="/contact/" class="hover-underline-animation"><em class="blue">shoot me an email</em></a> if you have any questions.</h2>
+    <h2><br />Happy exploring!</h2>
+</div>
+
             </div>
         </div>
     </body>
