@@ -1,8 +1,14 @@
 # jekyll-simple-blue
 
-⛅︎ A minimal white-blue Jekyll theme.
+⛅︎ A minimal, white-blue Jekyll theme, including about, resume, and contact pages.
+
 ![Screenshot](https://raw.githubusercontent.com/djarty24/jekyll-simple-blue/master/screenshot.png)
 
+## Contents
+- [Installation](#installation)
+- [Customizing](#customizing)
+- [License](#license)
+- [Credits](#credits)
 
 ## Installation
 
@@ -26,23 +32,35 @@ Or install it yourself as:
 
     $ gem install jekyll-simple-blue
 
-## Usage
+## Customizing
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+Using simple-blue as a theme means you can take advantage of the file overriding method. This allows you to overwrite any file in this theme with your own custom file, by matching the file name and path. The most common example of this would be if you want to add your own styles or change the core style settings.
 
-## Contributing
+To add your own styles copy the [`styles.css`](https://github.com/djarty24/jekyll-simple-blue/raw/main/assets/styles.css) into your own project with the same file path (`assets/styles.css`). From there you can add your own styles, and modify or even remove existing ones.
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/jekyll-simple-blue. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+## Site-Settings
 
-## Development
+To modify set parameters, you need to modify the `_config.yml` `title` and `url`.
 
-To set up your environment to develop this theme, run `bundle install`.
+Additionally, you need to add the following parameters to edit the author name, email, and optionall, the file path to your resume:
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+```yaml
+author:
+    name: Your name
+    email: Your email
+```
 
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `jekyll-simple-blue.gemspec` accordingly.
+To add your resume and favicon, simply copy ithemt into the root folder with the names `resume.pdf` and `favicon.ico`. If you'd like custom names, you will have to modify the `_config.yml` file:
+
+```yaml
+resume: "/resume.pdf" # add your resume filepath here
+favicon: "/favicon.ico" # add your favicon filepath here
+```
 
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Credits
+
+- Thanks to Aditi Mishra for website design inspiration.
