@@ -7,8 +7,7 @@
 ## Contents
 - [Installation](#installation)
 - [Customizing](#customizing)
-- [Page Layouts](#page-layouts)
-- [Site Settings](#site-settings)
+- [Page Layouts](##page-layouts)
 - [License](#license)
 - [Credits](#credits)
 
@@ -42,7 +41,7 @@ To add your own styles copy the [`styles.css`](https://github.com/djarty24/jekyl
 
 ## Page-Layouts
 
-There are 3 layouts; `page`, `post`, and `home` (home acts as the front page blog).
+There are 3 layouts; `page`, `post`, and `home` (home acts as the font page blog).
 
 ## Site-Settings
 
