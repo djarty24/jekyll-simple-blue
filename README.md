@@ -7,7 +7,6 @@
 ## Contents
 - [Installation](#installation)
 - [Customizing](#customizing)
-- [Page Layouts](##page-layouts)
 - [License](#license)
 - [Credits](#credits)
 
@@ -38,10 +37,6 @@ Or install it yourself as:
 Using simple-blue as a theme means you can take advantage of the file overriding method. This allows you to overwrite any file in this theme with your own custom file, by matching the file name and path. The most common example of this would be if you want to add your own styles or change the core style settings.
 
 To add your own styles copy the [`styles.css`](https://github.com/djarty24/jekyll-simple-blue/raw/main/assets/styles.css) into your own project with the same file path (`assets/styles.css`). From there you can add your own styles, and modify or even remove existing ones.
-
-## Page-Layouts
-
-There are 3 layouts; `page`, `post`, and `home` (home acts as the font page blog).
 
 ## Site-Settings
 
