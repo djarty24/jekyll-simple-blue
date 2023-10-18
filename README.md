@@ -42,7 +42,7 @@ To add your own styles copy the [`styles.css`](https://github.com/djarty24/jekyl
 
 ## Page-Layouts
 
-There are 3 layouts; `page`, `post`, and `home` (home acts as the front page blog).
+There are 3 layouts; `page`, `post`, and `home` (home acts as the font page blog).
 
 ## Site-Settings
 
