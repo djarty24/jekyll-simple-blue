@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-simple-blue (0.1.0)
+    jekyll-simple-blue (0.4.0)
       jekyll (~> 4.3)
 
 GEM
