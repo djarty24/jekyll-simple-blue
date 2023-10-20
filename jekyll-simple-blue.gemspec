@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Revati Tambe"]
   spec.email         = ["24revati@gmail.com"]
 
-  spec.summary       = "Simple blue is a theme I'm currently working on for my own blog. Feel free to use it as your own!"
+  spec.summary       = "Simple blue is a theme I'm currently working on for my own blog. Feel free to use it as your own! Make sure to check out the README in the git repo for specific installation instructions."
   spec.homepage      = "https://github.com/djarty24/jekyll-simple-blue"
   spec.license       = "MIT"
 
