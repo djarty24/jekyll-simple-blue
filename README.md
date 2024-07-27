@@ -9,7 +9,6 @@
 - [Customizing](#customizing)
 - [Page Layouts](#page-layouts)
 - [Site Settings](#site-settings)
-- [License](#license)
 
 ## Installation
 
@@ -61,7 +60,3 @@ To add your resume and favicon, simply copy ithemt into the root folder with the
 resume: "/resume.pdf" # add your resume filepath here
 favicon: "/favicon.ico" # add your favicon filepath here
 ```
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
