@@ -33,8 +33,6 @@ Or install it yourself as:
 
     $ gem install jekyll-simple-blue
 
-After installing, be sure to rename your `index.markdown` and `about.markdown` files to `index.md` and `about.md`. If you skip this step **your home page will not be created.**
-
 ## Customizing
 
 Using simple-blue as a theme means you can take advantage of the file overriding method. This allows you to overwrite any file in this theme with your own custom file, by matching the file name and path. The most common example of this would be if you want to add your own styles or change the core style settings.
